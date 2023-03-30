@@ -1,0 +1,408 @@
+/* @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500&display=swap');
+
+body {
+    height: 4955px;
+    width: 1920px;
+    background-color: rgba(22, 40, 49, 1);
+    
+    font-family: 'El Messiri';
+}
+
+header {
+    background-color: rgba(22, 40, 49, 1);
+    position: absolute;
+    width: 1298px;
+    height: auto;
+    left: 312px;
+    top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.button {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.button:hover {
+    color: #40a7cf;
+    text-decoration: solid;
+    transition: 1s;
+}
+
+.page-menu-list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+}
+
+
+.imgb {
+    position: absolute;
+    width: 1296px;
+    height: 600px;
+    left: 312px;
+    top: 140px;
+}
+
+.page {
+    display: flex;
+    /* flex-basis: 10%; */
+    justify-content: space-evenly;
+    background: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+    transition: 1s;
+    width: 180px;
+}
+.page:hover{
+    color: #018ABE;
+    background-color: #FFFFFF;
+    transition: 1s;
+}
+
+.b {
+    position: absolute;
+    width: 587px;
+    height: 180px;
+    left: 340px;
+    top: 194px;
+
+    /* heading/64b */
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    /* or 90px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.b1 {
+
+    position: absolute;
+    width: 241px;
+    height: 34px;
+    left: 500px;
+    top: 130px;
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.fle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+
+    width: 1296px;
+    height: 699px;
+    left: 312px;
+    top: 890px;
+
+}
+
+.bllockfle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.block {
+    padding: 10px;
+    height: 260px;
+}
+
+.tblock {
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 24px; */
+    line-height: 140%;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 115px;
+    left: 20px;
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.block1 {
+    position: absolute;
+    width: 416px;
+    height: 540px;
+    left: 0px;
+    top: 188px;
+
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg), url(image.png), #8E8E8E;
+    border-radius: 10px;
+}
+
+
+
+.c {
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+    position: relative;
+    left: 546px;
+    top: 8px;
+
+    color: #FFFFFF;
+}
+
+/* position: absolute;
+width: 1076px;
+height: 1024px;
+left: 422px;
+top: 2474px; */
+.rs {
+    position: absolute;
+    width: 1076px;
+    height: 1024px;
+    left: 422px;
+    display: flex;
+
+    top: 1659px;
+    margin-top: 150px;
+
+}
+
+.centerte {
+    position: relative;
+    left: 397px;
+    margin-bottom: 120px;
+    display: block;
+}
+
+.prs {
+    /* height: 500px;
+    width: 500px;
+    position: relative;
+    bottom: 400px;
+    left: 600px; */
+    position: absolute;
+    width: 466px;
+    height: 234px;
+    left: 620px;
+    top: 700px;
+    color: white;
+
+}
+
+.rsimg1 {
+    position: absolute;
+    width: 526px;
+    height: 400px;
+    left: 600px;
+
+    background: url(.jpg), url(image.png);
+    border-radius: 10px;
+}
+
+
+.rsimg {
+    position: absolute;
+    width: 526px;
+    height: 365px;
+
+    top: 633px;
+
+    background: url(.jpg), url(image.png);
+    border-radius: 10px;
+}
+
+.prs2 {
+    position: absolute;
+    width: 466px;
+    height: 366px;
+    /* left: 1032px; */
+    /* top: 2115px; */
+    color: white;
+}
+
+.point {
+    position: absolute;
+    width: 1076px;
+    height: 614px;
+    left: 422px;
+    top: 3148px;
+}
+
+.thanks {
+    position: relative;
+    left: 700px;
+}
+
+.tablepoint {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 416px;
+    height: 250px;
+
+    top: 250px;
+}
+
+.baswc {
+
+
+    position: absolute;
+    width: 392px;
+    height: 290px;
+    left: 940px;
+
+
+    /* accent */
+
+    background: #018ABE;
+    border-radius: 10px;
+}
+
+.bas {
+
+    position: absolute;
+    width: 392px;
+    height: 290px;
+    left: 940px;
+    top: 326px;
+
+    /* accent */
+
+    background: #018ABE;
+    border-radius: 10px;
+}
+
+.foo {
+    display: flex;
+    position: absolute;
+    width: 1296px;
+    height: 604px;
+    left: 312px;
+    top: 4060px;
+}
+
+
+.fooh3 {
+
+
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    text-align: center;
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.foobot {
+    padding: 10px;
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #018ABE;
+    background: #FFFFFF;
+    border-radius: 3px;
+    text-align: center;
+    transition: 1s;
+}
+.foobot:hover{
+    color: #FFFFFF;
+    background-color: #018ABE;
+    transition: 1s;
+}
+
+
+.fooimg {
+    margin-left: 50px;
+}
+
+.h3po {
+    position: absolute;
+    width: 241px;
+    height: 29px;
+    left: 845px;
+
+
+    /* p / 21b--el */
+
+    font-family: 'El Messiri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 140%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+fieldset{
+    border-radius: 5%;
+}
+
+form {
+    margin: 20px;
+    text-align: center;
+   display: inline-block; 
+    border: 1px solid black ;
+    border-radius: 5%;
+    height: auto;
+    padding:0px;
+    width: auto;
+    position: relative;
+    left: 500px;
+}
+
+
+input {
+    padding: 5px;
+}
+
+textarea{
+   
+        margin: 0px;
+        width: 300px;
+        height: 43px;
+}
