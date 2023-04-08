@@ -10,11 +10,11 @@ body {
 
 header {
     background-color: rgba(22, 40, 49, 1);
-    position: absolute;
-    width: 1298px;
+    width: auto;
     height: auto;
-    left: 312px;
-    top: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
