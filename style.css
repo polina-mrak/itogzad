@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500&display=swap');
 
 body {
-    height: 4955px;
-    width: 1920px;
+    height: auto;
+    width: auto;
     background-color: rgba(22, 40, 49, 1);
-    
     font-family: 'El Messiri';
 }
 
