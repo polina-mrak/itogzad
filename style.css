@@ -9,12 +9,16 @@ body {
 }
 
 header {
-    background-color: rgba(22, 40, 49, 1);
+    /* background-color: rgba(22, 40, 49, 1); */
     width: auto;
     height: auto;
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+main{
+
+    display: flex;
 }
 
 a {
@@ -43,7 +47,7 @@ a {
     padding: 0px;
     gap: 50px;
 }
-
+ 
 
 .imgb {
     position: absolute;
@@ -51,6 +55,16 @@ a {
     height: 600px;
     left: 312px;
     top: 140px;
+
+    /* position: absolute; */
+    /* width: 1296px;
+    height: 600px;
+    left: 312px;
+    top: 140px;
+    display: flex;
+    justify-content: center; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
 }
 
 .page {
