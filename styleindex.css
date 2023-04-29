@@ -147,6 +147,7 @@ a {
 .block {
     padding: 10px;
     height: 260px;
+    margin-top: 20px;
 }
 
 .tblock {
@@ -177,7 +178,7 @@ a {
     height: 540px;
     left: 0px;
     top: 188px;
-
+    margin-top: 20px;
     background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(.jpg), url(image.png), #8E8E8E;
     border-radius: 10px;
 }
@@ -300,7 +301,7 @@ top: 2474px; */
 
 
     /* accent */
-
+    padding-top: 35px;
     background: #018ABE;
     border-radius: 10px;
 }
@@ -312,7 +313,7 @@ top: 2474px; */
     height: 290px;
     left: 940px;
     top: 326px;
-
+    padding-top: 35px;
     /* accent */
 
     background: #018ABE;

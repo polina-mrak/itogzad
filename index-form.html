@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="styleindex-form.css">
 </head>
 
-<body>
-    <section>
+<body id="bodyid" class="styleback1">
+    <section id="ex1">
         <div id="mainmodal" class="mh">
             <div id="modal">
                 модальное окно
@@ -34,6 +34,7 @@
 
                 <input type="button" onclick="y()" value="проверить форму">
                 <input type="button" onclick="modalopen()" value="открыть окно">
+                <input type="button" onclick="back()" value="поменять цвет фона">
                 <button class="button" type="submit">регистрация</button>
                 <button class="button" type="reset">сбросить все</button>
                 <a class="button" href="index.html">Перейти на главную</a>
@@ -59,6 +60,22 @@
             document.getElementById("mainmodal").className = "mh";
 
         }
+
+     
+        function back() {
+
+            if (document.getElementById("ex1").className == "styleback2") {
+                document.getElementById("ex1").className = "styleback1"
+
+            }
+
+            else {
+
+                document.getElementById("ex1").className = "styleback2"
+
+            }
+        }
+
     </script>
 </body>
 

@@ -10,7 +10,7 @@
     <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
     <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
     <meta name="author" content="Codrops" />
-    <link rel="shortcut icon" href="../favicon.ico">
+    <!-- <link rel="shortcut icon" href="../favicon.ico"> -->
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -19,9 +19,12 @@
         <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
     </noscript>
     <title>Document</title>
+    <!-- <script src="funcindex.js"></script> -->
 </head>
 
-<body id="maincolor " class="demo-body">
+</html>
+
+<body id="bodyid" class="styleback1">
     <header>
         <nav class="page-menu">
             <ul class="page-menu-list">
@@ -52,7 +55,7 @@
                 <li class="page">
                     <a class="button" href="index-form.html">Записатся на сеанс</a>
                 </li>
-
+<!-- 
                 <li>
                     <button id="style" onclick="qwe()">светлая тема</button>
                 </li>
@@ -61,7 +64,7 @@
                 </li>
                 <li>
                     <button id="style" onclick="qwe1()">темная тема</button>
-                </li>
+                </li> -->
             </ul>
 
         </nav>
@@ -226,72 +229,76 @@
 
 
     </footer>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
     <div class="container demo-1">
-		
-        <!-- Codrops top bar -->
-        <!-- <div class="codrops-top clearfix">
-            <a href="http://tympanus.net/Tutorials/CSS3BouncingBall/">
-                <strong>&laquo; Previous Demo: </strong>3D Bouncing Ball with CSS3
-            </a>
-            <span class="right">
-                <a href="http://tympanus.net/codrops/?p=9357">
-                    <strong>Back to the Codrops Article</strong>
-                </a>
-            </span>
-            <div class="clr"></div>
-        </div>/ Codrops top bar -->
-
-        <!-- <nav class="codrops-demos">
-            <a class="current-demo" href="index.html">Demo 1</a>
-            <a href="index2.html">Demo 2</a>
-        </nav> -->
-
         <div id="slider" class="sl-slider-wrapper">
 
             <div class="sl-slider">
-            
-                <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+
+                <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25"
+                    data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                     <div class="sl-slide-inner">
                         <div class="deco" data-icon="H"></div>
                         <h2>A bene placito</h2>
-                        <blockquote><p>You have just dined, and however scrupulously the slaughterhouse is concealed in the graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite></blockquote>
+                        <blockquote>
+                            <p>You have just dined, and however scrupulously the slaughterhouse is concealed in the
+                                graceful distance of miles, there is complicity.</p><cite>Ralph Waldo Emerson</cite>
+                        </blockquote>
                     </div>
                 </div>
-                
-                <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+
+                <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10"
+                    data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
                     <div class="sl-slide-inner">
                         <div class="deco" data-icon="q"></div>
                         <h2>Regula aurea</h2>
-                        <blockquote><p>Until he extends the circle of his compassion to all living things, man will not himself find peace.</p><cite>Albert Schweitzer</cite></blockquote>
+                        <blockquote>
+                            <p>Until he extends the circle of his compassion to all living things, man will not himself
+                                find peace.</p><cite>Albert Schweitzer</cite>
+                        </blockquote>
                     </div>
                 </div>
-                
-                <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+
+                <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3"
+                    data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
                         <div class="deco" data-icon="O"></div>
                         <h2>Dum spiro, spero</h2>
-                        <blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+                        <blockquote>
+                            <p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the
+                                flesh of creatures who have been utterly deprived of everything that could make their
+                                lives worth living and who endured the awful suffering and the terror of the abattoirs.
+                            </p><cite>Dame Jane Morris Goodall</cite>
+                        </blockquote>
                     </div>
                 </div>
-                
-                <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+
+                <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5"
+                    data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
                         <div class="deco" data-icon="I"></div>
                         <h2>Donna nobis pacem</h2>
-                        <blockquote><p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.</p><cite>Michael Klaper M.D.</cite></blockquote>
+                        <blockquote>
+                            <p>The human body has no more need for cows' milk than it does for dogs' milk, horses' milk,
+                                or giraffes' milk.</p><cite>Michael Klaper M.D.</cite>
+                        </blockquote>
                     </div>
                 </div>
-                
-                <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+
+                <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5"
+                    data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
                     <div class="sl-slide-inner">
                         <div class="deco" data-icon="t"></div>
                         <h2>Acta Non Verba</h2>
-                        <blockquote><p>I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi Clarke</cite></blockquote>
+                        <blockquote>
+                            <p>I think if you want to eat more meat you should kill it yourself and eat it raw so that
+                                you are not blinded by the hypocrisy of having it processed for you.</p><cite>Margi
+                                Clarke</cite>
+                        </blockquote>
                     </div>
                 </div>
             </div><!-- /sl-slider -->
-            
+
             <nav id="nav-arrows" class="nav-arrows">
                 <span class="nav-arrow-prev">Previous</span>
                 <span class="nav-arrow-next">Next</span>
@@ -308,92 +315,109 @@
         </div><!-- /slider-wrapper -->
 
     </div>
+    <!-- ================================================================================ -->
+    <!-- <script>
+        // function qwe() {
+        //     document.getElementsByName('body')
+        //     body.styleindex.backgroundColor = "#438cb0"
+        // }
+        // function qwe1() {
+        //     document.getElementsByClassName('body')
+        //     body.style.backgroundColor = " #0f1314"
+        // }
+        // function qwe2() {
+        //     document.getElementById('maincolor')
+        //     maincolor.styleindex.backgroundColor = " #162e39"
+        // }
+        function back() {
 
-    <script>
-        function qwe() {
-            document.getElementById('maincolor')
-            maincolor.style.backgroundColor = "#438cb0"
+            if (document.getElementById("ex1").className == "styleback2") {
+                document.getElementById("ex1").className = "styleback1"
+
+            }
+
+            else {
+
+                document.getElementById("ex1").className = "styleback2"
+
+            }
         }
-        function qwe1() {
-            document.getElementById('maincolor')
-            maincolor.style.backgroundColor = " #0f1314"
-        }
-        function qwe2() {
-            document.getElementById('maincolor')
-            maincolor.style.backgroundColor = " #162e39"
-        }
-    </script>
+    </script> -->
+
+    <!-- ================================================================================ -->
+
+
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
     <script type="text/javascript" src="js/jquery.slitslider.js"></script>
     <script type="text/javascript">
-        $(function () {
+            $(function () {
 
-            var Page = (function () {
+                var Page = (function () {
 
-                var $navArrows = $('#nav-arrows'),
-                    $nav = $('#nav-dots > span'),
-                    slitslider = $('#slider').slitslider({
-                        onBeforeChange: function (slide, pos) {
+                    var $navArrows = $('#nav-arrows'),
+                        $nav = $('#nav-dots > span'),
+                        slitslider = $('#slider').slitslider({
+                            onBeforeChange: function (slide, pos) {
 
-                            $nav.removeClass('nav-dot-current');
-                            $nav.eq(pos).addClass('nav-dot-current');
+                                $nav.removeClass('nav-dot-current');
+                                $nav.eq(pos).addClass('nav-dot-current');
 
-                        }
-                    }),
+                            }
+                        }),
 
-                    init = function () {
+                        init = function () {
 
-                        initEvents();
+                            initEvents();
 
-                    },
-                    initEvents = function () {
+                        },
+                        initEvents = function () {
 
-                        // add navigation events
-                        $navArrows.children(':last').on('click', function () {
+                            // add navigation events
+                            $navArrows.children(':last').on('click', function () {
 
-                            slitslider.next();
-                            return false;
-
-                        });
-
-                        $navArrows.children(':first').on('click', function () {
-
-                            slitslider.previous();
-                            return false;
-
-                        });
-
-                        $nav.each(function (i) {
-
-                            $(this).on('click', function (event) {
-
-                                var $dot = $(this);
-
-                                if (!slitslider.isActive()) {
-
-                                    $nav.removeClass('nav-dot-current');
-                                    $dot.addClass('nav-dot-current');
-
-                                }
-
-                                slitslider.jump(i + 1);
+                                slitslider.next();
                                 return false;
 
                             });
 
-                        });
+                            $navArrows.children(':first').on('click', function () {
 
-                    };
+                                slitslider.previous();
+                                return false;
 
-                return { init: init };
+                            });
 
-            })();
+                            $nav.each(function (i) {
 
-            Page.init();
-        });
+                                $(this).on('click', function (event) {
+
+                                    var $dot = $(this);
+
+                                    if (!slitslider.isActive()) {
+
+                                        $nav.removeClass('nav-dot-current');
+                                        $dot.addClass('nav-dot-current');
+
+                                    }
+
+                                    slitslider.jump(i + 1);
+                                    return false;
+
+                                });
+
+                            });
+
+                        };
+
+                    return { init: init };
+
+                })();
+
+                Page.init();
+            });
     </script>
-
+    <!-- ================================================================================ -->
 </body>
 
 </html>
