@@ -4,7 +4,7 @@
 body {
     height: auto;
     width: auto;
-    background-color: #0e3f55;
+    background-color: #162e39;
     font-family: 'El Messiri';
 }
 
@@ -16,7 +16,8 @@ header {
     display: flex;
     justify-content: center;
 }
-main{
+
+main {
 
     display: flex;
 }
@@ -47,7 +48,7 @@ a {
     padding: 0px;
     gap: 50px;
 }
- 
+
 
 .imgb {
     position: absolute;
@@ -77,7 +78,8 @@ a {
     transition: 1s;
     width: 180px;
 }
-.page:hover{
+
+.page:hover {
     color: #018ABE;
     background-color: #FFFFFF;
     transition: 1s;
@@ -357,7 +359,8 @@ top: 2474px; */
     text-align: center;
     transition: 1s;
 }
-.foobot:hover{
+
+.foobot:hover {
     color: #FFFFFF;
     background-color: #018ABE;
     transition: 1s;
@@ -391,18 +394,18 @@ top: 2474px; */
     color: #FFFFFF;
 }
 
-fieldset{
+fieldset {
     border-radius: 5%;
 }
 
 form {
     margin: 20px;
     text-align: center;
-   display: inline-block; 
-    border: 1px solid black ;
+    display: inline-block;
+    border: 1px solid black;
     border-radius: 5%;
     height: auto;
-    padding:0px;
+    padding: 0px;
     width: auto;
     position: relative;
     left: 500px;
@@ -413,16 +416,35 @@ input {
     padding: 5px;
 }
 
-textarea{
-   
-        margin: 0px;
-        width: 300px;
-        height: 43px;
+textarea {
+
+    margin: 0px;
+    width: 300px;
+    height: 43px;
 }
+
 /* modul 3 */
-#style{
+#style {
     margin: 10px;
-    text-align: center;
+
     color: white;
     height: 45px;
+    border: none;
+
+    display: flex;
+
+    justify-content: space-evenly;
+    background: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+    transition: 1s;
+    width: auto;
+    font-family: 'El Messiri';
+
+}
+
+#style:hover {
+    color: #018ABE;
+    background-color: #FFFFFF;
+    transition: 1s;
 }
