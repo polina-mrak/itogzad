@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
 </head>
+
 <body>
-    <form  method="POST" name="testform">
+    <form method="POST" name="testform">
         <fieldset>
             <legend>регистрация</legend>
             <p>введите логин</p>
-            <input type="login" name="username">
+            <input type="login" name="username" id="username">
             <p>введите пароль</p>
-            <input type="password" name="password">
+            <input type="password" name="password" id="password">
             <p>введите дату</p>
-            <input type="date" name="date">
+            <input type="date" name="date" id="date">
             <p>введите почту</p>
-            <input type="email  " name="email">
-            <p>введите что</p>
+            <input type="email  " name="email" id="email">
+            <!-- <p>введите что</p>
             <input type="radio" name="rad"> не тыкай <br>
             <input type="checkbox" name="browser"> тыкай <Br>
             <select name="what" id="">
@@ -26,17 +28,35 @@
                     <option selected value="s1">что-то</option>
                     <option value="s2">что-либо</option>
                     <option value="s3">что-нибудь</option>
-                </optgroup>
+                </optgroup> -->
             </select>
-            <p>введите цвет</p>
-            <input type="color" name="color">
             <p>что-то там о себе </p>
-            <textarea name="about" id="" cols="10" rows="2">для чтения </textarea>
+            <textarea name="about" id="" cols="10" rows="2" disabled>для чтения </textarea>
             <input type="text" name="about" maxlength="10" size="10" value="about me:" disabled>
+          
+            <input type="button" onclick="y()" value="проверить форму" >
+            <input type="button" onclick="modalopen()" value="открыть окно">
             <button class="button" type="submit">регистрация</button>
             <button class="button" type="reset">сбросить все</button>
             <a class="button" href="index.html">Перейти на главную</a>
         </fieldset>
     </form>
+    <script>
+        // итоговая за 3 модуль
+        function y() {
+            var login = String(document.getElementById("username").value);
+            var email = String(document.getElementById("email").value);
+            var date = String(document.getElementById("date").value);
+            var password = String(document.getElementById("password").value);
+            if (login == "" || email == "" || date == "" || password == "") {
+                alert("ошибка заполните поле")
+            }
+        }
+        function modalopen(){
+
+
+        }
+    </script>
 </body>
+
 </html>

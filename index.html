@@ -38,10 +38,17 @@
                 <li class="page">
                     <a class="button" href="index-form.html">Записатся на сеанс</a>
                 </li>
+       
+                <li>
+                    <button id="style" class="button page" onclick="qwe()">светлая тема</button>
+                </li>
+                <li>
+                    <button id="style" class="button page" onclick="qwe1()">темная тема</button>
+                </li>
             </ul>
 
         </nav>
-        <button id="style" onclick="qwe()">lhkjh</button>
+
     </header>
     <main>
         <div class="imgb">
@@ -205,7 +212,11 @@
     <script>
         function qwe() {
             document.getElementById('maincolor')
-            maincolor.style.backgroundColor = "#AA0000"
+            maincolor.style.backgroundColor = "#438cb0"
+        }
+        function qwe1() {
+            document.getElementById('maincolor')
+            maincolor.style.backgroundColor = " #162831"
         }
     </script>
 
