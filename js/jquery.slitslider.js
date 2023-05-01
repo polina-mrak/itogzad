@@ -35,7 +35,7 @@ $.fn.slitsliderEmulateTransitionEnd = function (duration) {
 	*
 	* latest version and complete README available on Github:
 	* https://github.com/louisremi/jquery-smartresize/blob/master/jquery.debouncedresize.js
-	*
+	*jq
 	* Copyright 2011 @louis_remi
 	* Licensed under the MIT license.
 	*/
